@@ -5,9 +5,9 @@ name: Build GeyserMC
 
 on:
   push:
-    branches: [ modified ]
+    branches: [ master ]
   pull_request:
-    branches: [ modified ]
+    branches: [ master ]
 
 jobs:
   build:
